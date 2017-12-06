@@ -1,0 +1,83 @@
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import "../bower_components/font-awesome/scss/font-awesome";
+@import "components/navbar";
+@import "components/carousel";
+
+.actions {
+
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	h3 {
+		font-size: 2.5em;
+		margin-bottom: 5px;
+		color: $brand-primary;
+	}
+
+	.fa {
+		color: $brand-primary;
+	}
+
+	h4 {
+		color: #555;
+	}
+}
+
+.services {
+	background: $gray-base;
+	color: $brand-warning;
+	padding-top: 5em;
+	padding-bottom: 2.5em;
+	font-size: 1.5em;
+
+	.panel {
+		border-radius: 0;
+
+		.panel-body {
+			padding: 0;
+
+			p {
+				font-size: 16px;
+				padding: 10px;
+				background: $brand-danger;
+				color: #fff;
+			}
+		}
+	}
+
+	.panel-heading {
+		font-height: 1.6;
+		color: $brand-primary;
+		font-size: 1.6em;
+	}
+
+	.social {
+
+		h3 {
+			font-size: 1.5em;
+		}
+
+		color: #fff;
+	}
+}
+
+.legal {
+	padding: 60px 0;
+	color: #333;
+}
+
+.newsletter {
+	padding: 60px 0;
+	text-align: center;
+	background: $brand-warning;
+	color: #fff;
+}
+
+footer {
+	padding: 30px 0;
+	background: $brand-info;
+	font-size: 1.2em;
+}
